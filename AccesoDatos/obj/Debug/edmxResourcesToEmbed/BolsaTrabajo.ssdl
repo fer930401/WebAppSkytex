@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="skytexModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="cccatcc">
+    <Key>
+      <PropertyRef Name="cc_tipo" />
+      <PropertyRef Name="status" />
+      <PropertyRef Name="rfc_fin" />
+    </Key>
+    <Property Name="cc_tipo" Type="nchar" MaxLength="1" Nullable="false" />
+    <Property Name="cc_cve" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="nom1" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="nom2" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="rfc" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="dir1" Type="nvarchar" MaxLength="40" />
+    <Property Name="dir2" Type="nvarchar" MaxLength="40" />
+    <Property Name="cd_cve" Type="nchar" MaxLength="3" />
+    <Property Name="pais_cve" Type="nchar" MaxLength="3" />
+    <Property Name="cp" Type="nvarchar" MaxLength="15" />
+    <Property Name="telef1" Type="nvarchar" MaxLength="20" />
+    <Property Name="telef2" Type="nvarchar" MaxLength="20" />
+    <Property Name="telef3" Type="nvarchar" MaxLength="20" />
+    <Property Name="fax1" Type="nvarchar" MaxLength="20" />
+    <Property Name="fax2" Type="nvarchar" MaxLength="20" />
+    <Property Name="fax3" Type="nvarchar" MaxLength="20" />
+    <Property Name="atencion1" Type="nvarchar" MaxLength="25" />
+    <Property Name="atencion2" Type="nvarchar" MaxLength="25" />
+    <Property Name="atencion3" Type="nvarchar" MaxLength="25" />
+    <Property Name="puesto1" Type="nvarchar" MaxLength="25" />
+    <Property Name="puesto2" Type="nvarchar" MaxLength="25" />
+    <Property Name="puesto3" Type="nvarchar" MaxLength="25" />
+    <Property Name="cta_num" Type="nvarchar" MaxLength="20" />
+    <Property Name="plazo_nrm" Type="smallint" Nullable="false" />
+    <Property Name="pct_desc" Type="decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="plazo_pp" Type="smallint" Nullable="false" />
+    <Property Name="pct_descpp" Type="decimal" Precision="7" Scale="4" Nullable="false" />
+    <Property Name="fec_ultact" Type="datetime" Nullable="false" />
+    <Property Name="id_ultact" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="sw_fijo" Type="bit" Nullable="false" />
+    <Property Name="sw_retencion" Type="bit" Nullable="false" />
+    <Property Name="fec_limrev" Type="datetime" Nullable="false" />
+    <Property Name="lim_cre" Type="money" Nullable="false" />
+    <Property Name="tm_lim_cre" Type="nchar" MaxLength="3" />
+    <Property Name="obs" Type="nvarchar(max)" />
+    <Property Name="status" Type="smallint" Nullable="false" />
+    <Property Name="forpag_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="sw_docto" Type="bit" Nullable="false" />
+    <Property Name="sw_plazomes" Type="bit" Nullable="false" />
+    <Property Name="rev_frec" Type="nchar" MaxLength="1" />
+    <Property Name="rev_tipo" Type="nchar" MaxLength="1" />
+    <Property Name="rev_dias" Type="nvarchar" MaxLength="15" />
+    <Property Name="rev_horaini" Type="datetime" Nullable="false" />
+    <Property Name="rev_horafin" Type="datetime" Nullable="false" />
+    <Property Name="doc_frec" Type="nchar" MaxLength="1" />
+    <Property Name="doc_tipo" Type="nchar" MaxLength="1" />
+    <Property Name="doc_dias" Type="nvarchar" MaxLength="15" />
+    <Property Name="doc_horaini" Type="datetime" Nullable="false" />
+    <Property Name="doc_horafin" Type="datetime" Nullable="false" />
+    <Property Name="pago_frec" Type="nchar" MaxLength="1" />
+    <Property Name="pago_tipo" Type="nchar" MaxLength="1" />
+    <Property Name="pago_dias" Type="nvarchar" MaxLength="15" />
+    <Property Name="pago_horaini" Type="datetime" Nullable="false" />
+    <Property Name="pago_horafin" Type="datetime" Nullable="false" />
+    <Property Name="if_cve" Type="nchar" MaxLength="6" />
+    <Property Name="rfc_fin" Type="nvarchar" MaxLength="40" Nullable="false" />
+  </EntityType>
+  <EntityType Name="itmov">
+    <Key>
+      <PropertyRef Name="ef_cve" />
+      <PropertyRef Name="num_fol" />
+      <PropertyRef Name="tipo_doc" />
+    </Key>
+    <Property Name="ef_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="div_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="cc_tipo" Type="nchar" MaxLength="1" Nullable="false" />
+    <Property Name="cc_cve" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="alm_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="ven_cve" Type="nchar" MaxLength="6" />
+    <Property Name="num_fol" Type="int" Nullable="false" />
+    <Property Name="tot_reng" Type="smallint" Nullable="false" />
+    <Property Name="tipo_doc" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="ef_cvep" Type="nchar" MaxLength="3" />
+    <Property Name="num_folp" Type="int" />
+    <Property Name="tipo_docp" Type="nchar" MaxLength="6" />
+    <Property Name="refer" Type="nvarchar" MaxLength="20" />
+    <Property Name="fec_mov" Type="datetime" Nullable="false" />
+    <Property Name="fec_ultact" Type="datetime" Nullable="false" />
+    <Property Name="id_ultact" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="foremb_cve" Type="nchar" MaxLength="6" />
+    <Property Name="pct_desc" Type="decimal" Precision="7" Scale="4" Nullable="false" />
+    <Property Name="tm" Type="nchar" MaxLength="3" />
+    <Property Name="tc" Type="decimal" Precision="12" Scale="6" Nullable="false" />
+    <Property Name="total" Type="money" Nullable="false" />
+    <Property Name="iva" Type="money" Nullable="false" />
+    <Property Name="ieps" Type="money" Nullable="false" />
+    <Property Name="obs" Type="ntext" />
+    <Property Name="pct_canacp" Type="decimal" Precision="7" Scale="4" Nullable="false" />
+    <Property Name="fec_prom" Type="datetime" Nullable="false" />
+    <Property Name="sw_facpar" Type="bit" Nullable="false" />
+    <Property Name="sw_entpar" Type="bit" Nullable="false" />
+    <Property Name="forpag_cve" Type="nchar" MaxLength="3" />
+    <Property Name="fob_cve" Type="nchar" MaxLength="6" />
+    <Property Name="cf_cve" Type="nchar" MaxLength="6" />
+    <Property Name="cif_cve" Type="nchar" MaxLength="6" />
+    <Property Name="dest_cve" Type="nchar" MaxLength="6" />
+    <Property Name="sw_transp" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="cf_flete" Type="money" Nullable="false" />
+    <Property Name="cif_flete" Type="money" Nullable="false" />
+    <Property Name="seguro" Type="money" Nullable="false" />
+    <Property Name="num_guia" Type="nvarchar" MaxLength="20" />
+    <Property Name="contenedor" Type="nvarchar" MaxLength="20" />
+    <Property Name="no_bultos" Type="decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="tie_trans" Type="decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="plazo_pp" Type="smallint" Nullable="false" />
+    <Property Name="pct_descpp" Type="decimal" Precision="7" Scale="4" Nullable="false" />
+    <Property Name="sw_impdia" Type="bit" Nullable="false" />
+    <Property Name="sw_consolida" Type="bit" Nullable="false" />
+    <Property Name="dato1" Type="money" Nullable="false" />
+    <Property Name="dato2" Type="money" Nullable="false" />
+    <Property Name="dato3" Type="money" Nullable="false" />
+    <Property Name="dato4" Type="money" Nullable="false" />
+    <Property Name="dato5" Type="money" Nullable="false" />
+    <Property Name="dato6" Type="money" Nullable="false" />
+    <Property Name="dato7" Type="money" Nullable="false" />
+    <Property Name="dato8" Type="money" Nullable="false" />
+    <Property Name="dato9" Type="money" Nullable="false" />
+    <Property Name="dato10" Type="money" Nullable="false" />
+    <Property Name="ven_tipo" Type="nchar" MaxLength="1" />
+    <Property Name="foremb_tipo" Type="nchar" MaxLength="1" />
+    <Property Name="plazo" Type="smallint" />
+    <Property Name="sw_impexp" Type="bit" Nullable="false" />
+    <Property Name="suc_cve" Type="nchar" MaxLength="3" />
+    <Property Name="suc_aten" Type="nvarchar" MaxLength="25" />
+    <Property Name="imp_letra" Type="nvarchar" MaxLength="255" />
+    <Property Name="fec_letra" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="xcdivef">
+    <Key>
+      <PropertyRef Name="ef_cve" />
+      <PropertyRef Name="div_cve" />
+    </Key>
+    <Property Name="ef_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="div_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="bgt_grp" Type="nvarchar" MaxLength="40" />
+    <Property Name="bgt_sgrp" Type="nvarchar" MaxLength="40" />
+    <Property Name="div_grp" Type="nchar" MaxLength="3" />
+    <Property Name="status" Type="bit" />
+  </EntityType>
+  <EntityType Name="xcuser">
+    <Key>
+      <PropertyRef Name="ef_cve" />
+      <PropertyRef Name="user_cve" />
+    </Key>
+    <Property Name="ef_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="div_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="user_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="dest_mail" Type="nvarchar" MaxLength="40" />
+    <Property Name="idioma" Type="nchar" MaxLength="3" />
+    <Property Name="srv_cve" Type="nvarchar" MaxLength="25" />
+    <Property Name="path_adobe" Type="nvarchar" MaxLength="255" />
+    <Property Name="status" Type="smallint" />
+  </EntityType>
+  <EntityContainer Name="skytexModelStoreContainer">
+    <EntitySet Name="cccatcc" EntityType="Self.cccatcc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="itmov" EntityType="Self.itmov" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="xcdivef" EntityType="Self.xcdivef" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="xcuser" EntityType="Self.xcuser" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,9 @@
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkytex\AccesoDatos\bin\Release\AccesoDatos.dll.config
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkytex\AccesoDatos\bin\Release\AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkytex\AccesoDatos\bin\Release\AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkytex\AccesoDatos\bin\Release\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkytex\AccesoDatos\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkytex\AccesoDatos\bin\Release\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkytex\AccesoDatos\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkytex\AccesoDatos\obj\Release\AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkytex\AccesoDatos\obj\Release\AccesoDatos.pdb

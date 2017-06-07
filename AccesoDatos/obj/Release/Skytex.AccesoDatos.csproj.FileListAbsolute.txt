@@ -1,0 +1,20 @@
+C:\Users\fernando.garcia\Documents\Visual Studio 2013\Projects\Skytex\AccesoDatos\bin\Release\AccesoDatos.dll.config
+C:\Users\fernando.garcia\Documents\Visual Studio 2013\Projects\Skytex\AccesoDatos\bin\Release\AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Visual Studio 2013\Projects\Skytex\AccesoDatos\bin\Release\AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Visual Studio 2013\Projects\Skytex\AccesoDatos\bin\Release\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Visual Studio 2013\Projects\Skytex\AccesoDatos\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\fernando.garcia\Documents\Visual Studio 2013\Projects\Skytex\AccesoDatos\bin\Release\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Visual Studio 2013\Projects\Skytex\AccesoDatos\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\fernando.garcia\Documents\Visual Studio 2013\Projects\Skytex\AccesoDatos\obj\Release\Skytex.AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Visual Studio 2013\Projects\Skytex\AccesoDatos\obj\Release\AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Visual Studio 2013\Projects\Skytex\AccesoDatos\obj\Release\AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\AccesoDatos\bin\Release\AccesoDatos.dll.config
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\AccesoDatos\bin\Release\AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\AccesoDatos\bin\Release\AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\AccesoDatos\bin\Release\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\AccesoDatos\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\AccesoDatos\bin\Release\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\AccesoDatos\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\AccesoDatos\obj\Release\Skytex.AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\AccesoDatos\obj\Release\AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\AccesoDatos\obj\Release\AccesoDatos.pdb
