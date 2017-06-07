@@ -1,0 +1,5 @@
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\Skytex.Entidades\bin\Debug\Skytex.Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\Skytex.Entidades\bin\Debug\Skytex.Entidades.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\Skytex.Entidades\obj\Debug\Skytex.Entidades.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\Skytex.Entidades\obj\Debug\Skytex.Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\Skytex\Skytex.Entidades\obj\Debug\Skytex.Entidades.pdb
