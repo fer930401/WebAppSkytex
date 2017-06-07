@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="skytexModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="itmov">
+    <Key>
+      <PropertyRef Name="ef_cve" />
+      <PropertyRef Name="num_fol" />
+      <PropertyRef Name="tipo_doc" />
+    </Key>
+    <Property Name="ef_cve" Type="String" MaxLength="3" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="div_cve" Type="String" MaxLength="3" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="cc_tipo" Type="String" MaxLength="1" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="cc_cve" Type="String" MaxLength="6" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="alm_cve" Type="String" MaxLength="3" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="ven_cve" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="num_fol" Type="Int32" Nullable="false" />
+    <Property Name="tot_reng" Type="Int16" Nullable="false" />
+    <Property Name="tipo_doc" Type="String" MaxLength="6" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="ef_cvep" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="num_folp" Type="Int32" />
+    <Property Name="tipo_docp" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="refer" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="fec_mov" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="fec_ultact" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="id_ultact" Type="String" MaxLength="3" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="foremb_cve" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="pct_desc" Type="Decimal" Precision="7" Scale="4" Nullable="false" />
+    <Property Name="tm" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="tc" Type="Decimal" Precision="12" Scale="6" Nullable="false" />
+    <Property Name="total" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="iva" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="ieps" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="obs" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="pct_canacp" Type="Decimal" Precision="7" Scale="4" Nullable="false" />
+    <Property Name="fec_prom" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="sw_facpar" Type="Boolean" Nullable="false" />
+    <Property Name="sw_entpar" Type="Boolean" Nullable="false" />
+    <Property Name="forpag_cve" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="fob_cve" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="cf_cve" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="cif_cve" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="dest_cve" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="sw_transp" Type="String" MaxLength="6" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="cf_flete" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="cif_flete" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="seguro" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="num_guia" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="contenedor" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="no_bultos" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="tie_trans" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="plazo_pp" Type="Int16" Nullable="false" />
+    <Property Name="pct_descpp" Type="Decimal" Precision="7" Scale="4" Nullable="false" />
+    <Property Name="sw_impdia" Type="Boolean" Nullable="false" />
+    <Property Name="sw_consolida" Type="Boolean" Nullable="false" />
+    <Property Name="dato1" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="dato2" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="dato3" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="dato4" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="dato5" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="dato6" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="dato7" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="dato8" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="dato9" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="dato10" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="ven_tipo" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="foremb_tipo" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="plazo" Type="Int16" />
+    <Property Name="sw_impexp" Type="Boolean" Nullable="false" />
+    <Property Name="suc_cve" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="suc_aten" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="imp_letra" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="fec_letra" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="skytexEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="itmov" EntityType="Self.itmov" />
+    <EntitySet Name="cccatcc" EntityType="skytexModel.cccatcc" />
+    <EntitySet Name="xcdivef" EntityType="skytexModel.xcdivef" />
+    <EntitySet Name="xcuser" EntityType="skytexModel.xcuser" />
+  </EntityContainer>
+  <EntityType Name="cccatcc">
+    <Key>
+      <PropertyRef Name="cc_tipo" />
+      <PropertyRef Name="status" />
+      <PropertyRef Name="rfc_fin" />
+    </Key>
+    <Property Name="cc_tipo" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="cc_cve" Type="String" Nullable="false" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="nom1" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="nom2" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="rfc" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="dir1" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="dir2" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="cd_cve" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="pais_cve" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="cp" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="telef1" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="telef2" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="telef3" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="fax1" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="fax2" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="fax3" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="atencion1" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="atencion2" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="atencion3" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="puesto1" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="puesto2" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="puesto3" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="cta_num" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="plazo_nrm" Type="Int16" Nullable="false" />
+    <Property Name="pct_desc" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="plazo_pp" Type="Int16" Nullable="false" />
+    <Property Name="pct_descpp" Type="Decimal" Nullable="false" Precision="7" Scale="4" />
+    <Property Name="fec_ultact" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="id_ultact" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="sw_fijo" Type="Boolean" Nullable="false" />
+    <Property Name="sw_retencion" Type="Boolean" Nullable="false" />
+    <Property Name="fec_limrev" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="lim_cre" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="tm_lim_cre" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="obs" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="Int16" Nullable="false" />
+    <Property Name="forpag_cve" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="sw_docto" Type="Boolean" Nullable="false" />
+    <Property Name="sw_plazomes" Type="Boolean" Nullable="false" />
+    <Property Name="rev_frec" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="rev_tipo" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="rev_dias" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="rev_horaini" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="rev_horafin" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="doc_frec" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="doc_tipo" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="doc_dias" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="doc_horaini" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="doc_horafin" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="pago_frec" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="pago_tipo" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="pago_dias" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="pago_horaini" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="pago_horafin" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="if_cve" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="rfc_fin" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="xcdivef">
+    <Key>
+      <PropertyRef Name="ef_cve" />
+      <PropertyRef Name="div_cve" />
+    </Key>
+    <Property Name="ef_cve" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="div_cve" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="bgt_grp" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="bgt_sgrp" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="div_grp" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="status" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="xcuser">
+    <Key>
+      <PropertyRef Name="ef_cve" />
+      <PropertyRef Name="user_cve" />
+    </Key>
+    <Property Name="ef_cve" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="div_cve" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="user_cve" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="dest_mail" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="idioma" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="srv_cve" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="path_adobe" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="Int16" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="skytexModelStoreContainer" CdmEntityContainer="skytexEntities1">
+    <EntitySetMapping Name="itmov">
+      <EntityTypeMapping TypeName="skytexModel.itmov">
+        <MappingFragment StoreEntitySet="itmov">
+          <ScalarProperty Name="ef_cve" ColumnName="ef_cve" />
+          <ScalarProperty Name="div_cve" ColumnName="div_cve" />
+          <ScalarProperty Name="cc_tipo" ColumnName="cc_tipo" />
+          <ScalarProperty Name="cc_cve" ColumnName="cc_cve" />
+          <ScalarProperty Name="alm_cve" ColumnName="alm_cve" />
+          <ScalarProperty Name="ven_cve" ColumnName="ven_cve" />
+          <ScalarProperty Name="num_fol" ColumnName="num_fol" />
+          <ScalarProperty Name="tot_reng" ColumnName="tot_reng" />
+          <ScalarProperty Name="tipo_doc" ColumnName="tipo_doc" />
+          <ScalarProperty Name="ef_cvep" ColumnName="ef_cvep" />
+          <ScalarProperty Name="num_folp" ColumnName="num_folp" />
+          <ScalarProperty Name="tipo_docp" ColumnName="tipo_docp" />
+          <ScalarProperty Name="refer" ColumnName="refer" />
+          <ScalarProperty Name="fec_mov" ColumnName="fec_mov" />
+          <ScalarProperty Name="fec_ultact" ColumnName="fec_ultact" />
+          <ScalarProperty Name="id_ultact" ColumnName="id_ultact" />
+          <ScalarProperty Name="foremb_cve" ColumnName="foremb_cve" />
+          <ScalarProperty Name="pct_desc" ColumnName="pct_desc" />
+          <ScalarProperty Name="tm" ColumnName="tm" />
+          <ScalarProperty Name="tc" ColumnName="tc" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="iva" ColumnName="iva" />
+          <ScalarProperty Name="ieps" ColumnName="ieps" />
+          <ScalarProperty Name="obs" ColumnName="obs" />
+          <ScalarProperty Name="pct_canacp" ColumnName="pct_canacp" />
+          <ScalarProperty Name="fec_prom" ColumnName="fec_prom" />
+          <ScalarProperty Name="sw_facpar" ColumnName="sw_facpar" />
+          <ScalarProperty Name="sw_entpar" ColumnName="sw_entpar" />
+          <ScalarProperty Name="forpag_cve" ColumnName="forpag_cve" />
+          <ScalarProperty Name="fob_cve" ColumnName="fob_cve" />
+          <ScalarProperty Name="cf_cve" ColumnName="cf_cve" />
+          <ScalarProperty Name="cif_cve" ColumnName="cif_cve" />
+          <ScalarProperty Name="dest_cve" ColumnName="dest_cve" />
+          <ScalarProperty Name="sw_transp" ColumnName="sw_transp" />
+          <ScalarProperty Name="cf_flete" ColumnName="cf_flete" />
+          <ScalarProperty Name="cif_flete" ColumnName="cif_flete" />
+          <ScalarProperty Name="seguro" ColumnName="seguro" />
+          <ScalarProperty Name="num_guia" ColumnName="num_guia" />
+          <ScalarProperty Name="contenedor" ColumnName="contenedor" />
+          <ScalarProperty Name="no_bultos" ColumnName="no_bultos" />
+          <ScalarProperty Name="tie_trans" ColumnName="tie_trans" />
+          <ScalarProperty Name="plazo_pp" ColumnName="plazo_pp" />
+          <ScalarProperty Name="pct_descpp" ColumnName="pct_descpp" />
+          <ScalarProperty Name="sw_impdia" ColumnName="sw_impdia" />
+          <ScalarProperty Name="sw_consolida" ColumnName="sw_consolida" />
+          <ScalarProperty Name="dato1" ColumnName="dato1" />
+          <ScalarProperty Name="dato2" ColumnName="dato2" />
+          <ScalarProperty Name="dato3" ColumnName="dato3" />
+          <ScalarProperty Name="dato4" ColumnName="dato4" />
+          <ScalarProperty Name="dato5" ColumnName="dato5" />
+          <ScalarProperty Name="dato6" ColumnName="dato6" />
+          <ScalarProperty Name="dato7" ColumnName="dato7" />
+          <ScalarProperty Name="dato8" ColumnName="dato8" />
+          <ScalarProperty Name="dato9" ColumnName="dato9" />
+          <ScalarProperty Name="dato10" ColumnName="dato10" />
+          <ScalarProperty Name="ven_tipo" ColumnName="ven_tipo" />
+          <ScalarProperty Name="foremb_tipo" ColumnName="foremb_tipo" />
+          <ScalarProperty Name="plazo" ColumnName="plazo" />
+          <ScalarProperty Name="sw_impexp" ColumnName="sw_impexp" />
+          <ScalarProperty Name="suc_cve" ColumnName="suc_cve" />
+          <ScalarProperty Name="suc_aten" ColumnName="suc_aten" />
+          <ScalarProperty Name="imp_letra" ColumnName="imp_letra" />
+          <ScalarProperty Name="fec_letra" ColumnName="fec_letra" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cccatcc">
+      <EntityTypeMapping TypeName="skytexModel.cccatcc">
+        <MappingFragment StoreEntitySet="cccatcc">
+          <ScalarProperty Name="rfc_fin" ColumnName="rfc_fin" />
+          <ScalarProperty Name="if_cve" ColumnName="if_cve" />
+          <ScalarProperty Name="pago_horafin" ColumnName="pago_horafin" />
+          <ScalarProperty Name="pago_horaini" ColumnName="pago_horaini" />
+          <ScalarProperty Name="pago_dias" ColumnName="pago_dias" />
+          <ScalarProperty Name="pago_tipo" ColumnName="pago_tipo" />
+          <ScalarProperty Name="pago_frec" ColumnName="pago_frec" />
+          <ScalarProperty Name="doc_horafin" ColumnName="doc_horafin" />
+          <ScalarProperty Name="doc_horaini" ColumnName="doc_horaini" />
+          <ScalarProperty Name="doc_dias" ColumnName="doc_dias" />
+          <ScalarProperty Name="doc_tipo" ColumnName="doc_tipo" />
+          <ScalarProperty Name="doc_frec" ColumnName="doc_frec" />
+          <ScalarProperty Name="rev_horafin" ColumnName="rev_horafin" />
+          <ScalarProperty Name="rev_horaini" ColumnName="rev_horaini" />
+          <ScalarProperty Name="rev_dias" ColumnName="rev_dias" />
+          <ScalarProperty Name="rev_tipo" ColumnName="rev_tipo" />
+          <ScalarProperty Name="rev_frec" ColumnName="rev_frec" />
+          <ScalarProperty Name="sw_plazomes" ColumnName="sw_plazomes" />
+          <ScalarProperty Name="sw_docto" ColumnName="sw_docto" />
+          <ScalarProperty Name="forpag_cve" ColumnName="forpag_cve" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="obs" ColumnName="obs" />
+          <ScalarProperty Name="tm_lim_cre" ColumnName="tm_lim_cre" />
+          <ScalarProperty Name="lim_cre" ColumnName="lim_cre" />
+          <ScalarProperty Name="fec_limrev" ColumnName="fec_limrev" />
+          <ScalarProperty Name="sw_retencion" ColumnName="sw_retencion" />
+          <ScalarProperty Name="sw_fijo" ColumnName="sw_fijo" />
+          <ScalarProperty Name="id_ultact" ColumnName="id_ultact" />
+          <ScalarProperty Name="fec_ultact" ColumnName="fec_ultact" />
+          <ScalarProperty Name="pct_descpp" ColumnName="pct_descpp" />
+          <ScalarProperty Name="plazo_pp" ColumnName="plazo_pp" />
+          <ScalarProperty Name="pct_desc" ColumnName="pct_desc" />
+          <ScalarProperty Name="plazo_nrm" ColumnName="plazo_nrm" />
+          <ScalarProperty Name="cta_num" ColumnName="cta_num" />
+          <ScalarProperty Name="puesto3" ColumnName="puesto3" />
+          <ScalarProperty Name="puesto2" ColumnName="puesto2" />
+          <ScalarProperty Name="puesto1" ColumnName="puesto1" />
+          <ScalarProperty Name="atencion3" ColumnName="atencion3" />
+          <ScalarProperty Name="atencion2" ColumnName="atencion2" />
+          <ScalarProperty Name="atencion1" ColumnName="atencion1" />
+          <ScalarProperty Name="fax3" ColumnName="fax3" />
+          <ScalarProperty Name="fax2" ColumnName="fax2" />
+          <ScalarProperty Name="fax1" ColumnName="fax1" />
+          <ScalarProperty Name="telef3" ColumnName="telef3" />
+          <ScalarProperty Name="telef2" ColumnName="telef2" />
+          <ScalarProperty Name="telef1" ColumnName="telef1" />
+          <ScalarProperty Name="cp" ColumnName="cp" />
+          <ScalarProperty Name="pais_cve" ColumnName="pais_cve" />
+          <ScalarProperty Name="cd_cve" ColumnName="cd_cve" />
+          <ScalarProperty Name="dir2" ColumnName="dir2" />
+          <ScalarProperty Name="dir1" ColumnName="dir1" />
+          <ScalarProperty Name="rfc" ColumnName="rfc" />
+          <ScalarProperty Name="nom2" ColumnName="nom2" />
+          <ScalarProperty Name="nom1" ColumnName="nom1" />
+          <ScalarProperty Name="cc_cve" ColumnName="cc_cve" />
+          <ScalarProperty Name="cc_tipo" ColumnName="cc_tipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="xcdivef">
+      <EntityTypeMapping TypeName="skytexModel.xcdivef">
+        <MappingFragment StoreEntitySet="xcdivef">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="div_grp" ColumnName="div_grp" />
+          <ScalarProperty Name="bgt_sgrp" ColumnName="bgt_sgrp" />
+          <ScalarProperty Name="bgt_grp" ColumnName="bgt_grp" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="div_cve" ColumnName="div_cve" />
+          <ScalarProperty Name="ef_cve" ColumnName="ef_cve" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="xcuser">
+      <EntityTypeMapping TypeName="skytexModel.xcuser">
+        <MappingFragment StoreEntitySet="xcuser">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="path_adobe" ColumnName="path_adobe" />
+          <ScalarProperty Name="srv_cve" ColumnName="srv_cve" />
+          <ScalarProperty Name="idioma" ColumnName="idioma" />
+          <ScalarProperty Name="dest_mail" ColumnName="dest_mail" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="user_cve" ColumnName="user_cve" />
+          <ScalarProperty Name="div_cve" ColumnName="div_cve" />
+          <ScalarProperty Name="ef_cve" ColumnName="ef_cve" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
