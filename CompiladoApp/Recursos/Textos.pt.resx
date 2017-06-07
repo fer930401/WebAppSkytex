@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strAviso1" xml:space="preserve">
+    <value>Política de Privacidade</value>
+  </data>
+  <data name="strAviso2" xml:space="preserve">
+    <value>Informações para Suppliers  \n Horário de faturamento \n Os tempos de acesso \n Etc.</value>
+  </data>
+  <data name="strBoton1" xml:space="preserve">
+    <value>Veja Detalhes</value>
+  </data>
+  <data name="strBoton2" xml:space="preserve">
+    <value>Postulate</value>
+  </data>
+  <data name="strBoton3" xml:space="preserve">
+    <value>Fechar Oferta</value>
+  </data>
+  <data name="strBoton4" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="strBoton5" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="strBoton6" xml:space="preserve">
+    <value>Retornar para Página Principal</value>
+  </data>
+  <data name="strLabel1" xml:space="preserve">
+    <value>Vacancy Descrição</value>
+  </data>
+  <data name="strLabel10" xml:space="preserve">
+    <value>Anexar o seu Curriculum</value>
+  </data>
+  <data name="strLabel11" xml:space="preserve">
+    <value>Se você está interessado envie seus dados desta forma e em breve entraremos em contato para agendar uma entrevista.</value>
+  </data>
+  <data name="strLabel2" xml:space="preserve">
+    <value>Recursos</value>
+  </data>
+  <data name="strLabel3" xml:space="preserve">
+    <value>Tipo de turno</value>
+  </data>
+  <data name="strLabel4" xml:space="preserve">
+    <value>Experiência</value>
+  </data>
+  <data name="strLabel5" xml:space="preserve">
+    <value>Vagas</value>
+  </data>
+  <data name="strLabel6" xml:space="preserve">
+    <value>Contato Skytex</value>
+  </data>
+  <data name="strLabel7" xml:space="preserve">
+    <value>Seu e-mail</value>
+  </data>
+  <data name="strLabel8" xml:space="preserve">
+    <value>Seu nome completo</value>
+  </data>
+  <data name="strLabel9" xml:space="preserve">
+    <value>comentários</value>
+  </data>
+  <data name="strMenu1" xml:space="preserve">
+    <value>Iniciação</value>
+  </data>
+  <data name="strMenu2" xml:space="preserve">
+    <value>Quem Somos</value>
+  </data>
+  <data name="strMenu3" xml:space="preserve">
+    <value>Bolsa de Emprego</value>
+  </data>
+  <data name="strMenu4" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="strMenu5" xml:space="preserve">
+    <value>Prestadores</value>
+  </data>
+  <data name="strNombreSky1" xml:space="preserve">
+    <value>Skytex</value>
+  </data>
+  <data name="strNombreSky2" xml:space="preserve">
+    <value>SkyTrade</value>
+  </data>
+  <data name="strNombreSky3" xml:space="preserve">
+    <value>SkyRug</value>
+  </data>
+  <data name="strNombreSky4" xml:space="preserve">
+    <value>SkyMatt</value>
+  </data>
+  <data name="strNombreSky5" xml:space="preserve">
+    <value>SkyFelt</value>
+  </data>
+  <data name="strNombreSky6" xml:space="preserve">
+    <value>Fiber Home</value>
+  </data>
+  <data name="strNombreSky7" xml:space="preserve">
+    <value>Body Fx</value>
+  </data>
+  <data name="strNombreSky8" xml:space="preserve">
+    <value>SkyDeco</value>
+  </data>
+  <data name="strParrafo1" xml:space="preserve">
+    <value>Em Skytex estamos orgulhosos de ser um dos fabricantes mais importantes da região do Acordo de Livre Comércio da América do Norte e América Latina alto torque de tecido de poliéster, bem como tecidos sintéticos com spandex tecido tingido e impresso circular.</value>
+  </data>
+  <data name="strParrafo10" xml:space="preserve">
+    <value>Estamos localizados no Corredor industrial Quetzalcoatl, Huejotzingo, Pue.</value>
+  </data>
+  <data name="strParrafo11" xml:space="preserve">
+    <value>Grupo é composto por empresa Skytex Skytex dedicada à fabricação de tecidos e malhas produzidas com fibras sintéticas e artificiais de alta qualidade. Skyfelt especializada no fabrico de feltros de não-tecidos. Fabricante Skymatt de fibras regeneradas e produtos não tecidos para a indústria de colchões, móveis e indústrias automotivas. Suas instalações estão localizadas em Huejotzingo Industrial Park, no coração de Puebla e cobrem mais de 80.000 metros quadrados</value>
+  </data>
+  <data name="strParrafo12" xml:space="preserve">
+    <value>Em Skytex estamos convencidos do papel fundamental que atende tecnologia de ponta para atender adequadamente a demanda dos mercados em uma economia global. Portanto, temos a intenção de ter a tecnologia e os mais modernos equipamentos disponíveis no mundo, tais como aqueles usados ​​para projetar sistemas digitais, gravura, tecidos e tecidos estampados, bem como os sistemas de controle mais avançados de produção eles permitem monitorar cada uma das etapas de todo o processo de fabricação.</value>
+  </data>
+  <data name="strParrafo13" xml:space="preserve">
+    <value>Hoje, uso intensivo e adequado da tecnologia nos permitiu ter processos altamente controlados através de sistemas totalmente informatizados, graças à qual podemos garantir permanentemente a qualidade superior dos nossos tecidos.</value>
+  </data>
+  <data name="strParrafo14" xml:space="preserve">
+    <value>Sempre oferecer qualidade superior em todos os nossos prodcutos é o objetivo e compromisso estabelecido com os nossos clientes. Para cumprir isso, temos um sistema de código de barras especializado que monitora e avalia todos os processos, a fim de assegurar a conformidade com os mais elevados padrões de qualidade internacional.</value>
+  </data>
+  <data name="strParrafo15" xml:space="preserve">
+    <value>Cada um dos nossos insumos e matérias primas, fios, corantes e produtos químicos, etc., bem como os produtos finais estão sujeitos a rigorosa inspeção usando o equipamento tecnologicamente mais avançados, controlá-los conformidade com as especificações que nos permitem garantir a satisfação completa dos nossos clientes.</value>
+  </data>
+  <data name="strParrafo16" xml:space="preserve">
+    <value>Além de nossos controles de produção rigorosos, temos um sistema de monitorização que nos permite acompanhar os pedidos dos clientes para garantir a entrega atempada dos nossos produtos.</value>
+  </data>
+  <data name="strParrafo17" xml:space="preserve">
+    <value>A localização geográfica do Skytex instalações complementa as facilidades para a prestação de um serviço de excelência. A nossa localização no centro da cidade do México se traduz em mais curtos e facilidade distâncias de comunicação com nossos clientes e fornecedores para fazer assim o fluxo de insumos e matérias- primas necessárias nos nossos processos de produção mais eficientes, bem como nossos produtos terminado. Além disso, sendo de origem NAFTA, os nossos produtos são dotados de condições preferenciais para exportar para os Estados Unidos, Canadá e Europa.</value>
+  </data>
+  <data name="strParrafo18" xml:space="preserve">
+    <value>Somos uma empresa que cumpre um papel activo a favor da tecnologia. Não só estamos em conformidade com as regulamentações governamentais no campo da indústria, mas também vai além das especificações locais para satisfazer os nossos próprios objectivos e programas sobre questões ecológicas.</value>
+  </data>
+  <data name="strParrafo19" xml:space="preserve">
+    <value>Nós temos uma planta para o tratamento biológico de água, a sua reciclagem e reutilização nos processos de produção. Nós temos um sistema de recolha de águas pluviais que nos permite armazenar, tratar e reutilizar a água de 12.000 m2 . Recuperar o vapor condensado para economizar energia em nossos processos, e, claro, cumprir todos os regulamentos sobre emissões e tratamento de resíduos.</value>
+  </data>
+  <data name="strParrafo2" xml:space="preserve">
+    <value>Devido ao seu equipamento e tecnologia avançada, a nossa planta bem ser considerado um dos mais modernos de seu tipo em todo o mundo.</value>
+  </data>
+  <data name="strParrafo20" xml:space="preserve">
+    <value>O desenvolvimento de uma empresa moderados de classe mundial com a tecnologia para participar como um líder na satisfação das necessidades dos mercados nacionais e internacionais através da produção e comercialização de uma vasta gama de produtos têxteis com um alto grau de profissionalismo.</value>
+  </data>
+  <data name="strParrafo21" xml:space="preserve">
+    <value>O Grupo Visão é Skytex ser reconhecida por seus clientes como o fornecedor mais confiável, melhorar continuamente a qualidade de seus produtos e serviços; por seus fornecedores como o cliente que promove, junto com eles o desenvolvimento e melhoria dos sistemas e processos de qualidade total; pela comunidade como a empresa que constantemente gera oportunidades de emprego e desenvolvimento e tem o cuidado do meio ambiente; e os seus funcionários como a empresa que promove o bem-estar, segurança, qualidade de vida e o desenvolvimento contínuo de todos os que trabalham nela.</value>
+  </data>
+  <data name="strParrafo22" xml:space="preserve">
+    <value>Skyman é nosso parceiro e um exemplo a seguir, porque a cada dia vive valores Skytex durante a execução de seu trabalho.</value>
+  </data>
+  <data name="strParrafo23" xml:space="preserve">
+    <value>Todos e cada um de nós deve seguir o exemplo de Skyman, para se tornar excelentes parceiros. Todos os nossos valores são expressos em círculo sucesso, representando o progresso ascendente em direção aos objetivos organizacionais através do cumprimento.</value>
+  </data>
+  <data name="strParrafo24" xml:space="preserve">
+    <value>Nós em Skytex são pessoas comprometidas com nossos clientes que merecem a mais alta qualidade, nós nos esforçamos para mantê-los comunicação clara e precisa, a fim de compreender as suas necessidades e fornecer um produto inovador que atende ou excede as suas expectativas de qualidade e entrega tempo.</value>
+  </data>
+  <data name="strParrafo25" xml:space="preserve">
+    <value>Nós aplicamos a tecnologia mais avançada de nossa espécie no processo de fabricação, eficaz e eficiente. Atendemos as necessidades específicas da empresa em desenvolvimento continuamente contemplando pessoal técnico e os aspectos de segurança também proteger o ambiente ecológico para o bem estar da sociedade.</value>
+  </data>
+  <data name="strParrafo26" xml:space="preserve">
+    <value>Obtenção de melhores resultados financeiros, como produtos de uma operação eficiente em todas as áreas, a remuneração justa e equitativa da equipe de trabalho eo desenvolvimento de recursos humanos que a compõem, bem como manter uma posição competitiva no mercado.</value>
+  </data>
+  <data name="strParrafo27" xml:space="preserve">
+    <value>Nós trazer o melhor de cada um, promovendo a comunicação, colaboração e integração, desenvolvimento de liderança eficaz para atingir os objetivos do grupo.</value>
+  </data>
+  <data name="strParrafo28" xml:space="preserve">
+    <value>Nós contribuir para o cuidado do trabalho e ambiente social, sendo responsável e cuidar da nossa integridade física e outros.</value>
+  </data>
+  <data name="strParrafo29" xml:space="preserve">
+    <value>Nós desenvolvemos nossa equipe para se manter atualizado de acordo com as exigências do nosso mercado.</value>
+  </data>
+  <data name="strParrafo3" xml:space="preserve">
+    <value>Graças à integração vertical de todos os processos, desde o fio torcido com o padrão do tecido, somos capazes de garantir a mais alta qualidade em todos os nossos produtos e, assim, oferecer o melhor serviço aos nossos clientes.</value>
+  </data>
+  <data name="strParrafo30" xml:space="preserve">
+    <value>Corremos com um senso de urgência para o nosso trabalho para alcançar a qualidade e eficiência desde a primeira vez.</value>
+  </data>
+  <data name="strParrafo31" xml:space="preserve">
+    <value>Nós exceder as expectativas dos clientes.</value>
+  </data>
+  <data name="strParrafo4" xml:space="preserve">
+    <value>Grupo Skytex consiste de um grupo de empresas, graças à sua tecnologia de ponta e determinação ajudar a garantir a mais alta qualidade em todos os nossos produtos. Grupo Skytex centra-se na indústria de vestuário, moda, decoração de casa, limpeza, indústria de colchões, móveis e outros. Nossa fábrica está localizada no Parque Industrial em Huejotzingo, Puebla e abrange mais de 80.000 metros quadrados. Skytex Grupo cumpre todas as normas internacionais nacional, bem como.</value>
+  </data>
+  <data name="strParrafo5" xml:space="preserve">
+    <value>O principal mercado de nossos produtos são destinados é a moda e vestuário, por isso a variedade de tecidos em termos de texturas, acabamentos, cores e padrões, adquiriu uma importância significativa como permanentemente tem que oferecer alternativas vanguarda de acordo com as tendências da marca de moda internacional.</value>
+  </data>
+  <data name="strParrafo6" xml:space="preserve">
+    <value>"Qualidade Primeiro "</value>
+  </data>
+  <data name="strParrafo7" xml:space="preserve">
+    <value>Plane e tecido Circular. Surge no país como a primeira fábrica de tecidos de alto torque. Usando fibras de poliéster para oferecer ao mercado um produto interno capaz de substituir e melhorar os produtos tinham que ser importados.</value>
+  </data>
+  <data name="strParrafo8" xml:space="preserve">
+    <value>Ripas. No final de 2006, iniciou a fabricação de tiras com tecnologia avançada e controle de qualidade; feita com nylon e poliéster, que oferece grande resistência e a variedade no tamanho e cor.</value>
+  </data>
+  <data name="strParrafo9" xml:space="preserve">
+    <value>Meio Ambiente. Como uma empresa que não só cumprir os regulamentos governamentais no campo da indústria, mas também satisfazer os nossos próprios objectivos em matéria orgânica.</value>
+  </data>
+  <data name="strParrafoPrivacidad1" xml:space="preserve">
+    <value>Skytex México SA de CV, Skymatt SA de CV, Skyfelt SA de CV, Skyrug SA de CV e Global Financial Solution GFSK SA de CV de CV SOFOM ENR (coletivamente GROUP Skytex ) são responsáveis ​​pelo tratamento ( uso ) dos seus dados pessoais.</value>
+  </data>
+  <data name="strParrafoPrivacidad10" xml:space="preserve">
+    <value>Você ou o seu representante legal pode solicitar a qualquer momento o acesso Grupo Skytex, modificar, cancelar ou opor ( ARCO ), limitar a sua utilização ou revogar o uso de seus dados pessoais ( ARCO direitos ) e os procedimentos para exercer esses direitos através da comunicação para o seguinte e-mail: atención.avisoprivacidad@skytex.com.mx</value>
+  </data>
+  <data name="strParrafoPrivacidad11" xml:space="preserve">
+    <value>Se você é fornecedor de indivíduo Skytex Group, agente e / ou acionista de um fornecedor, e uma pessoa singular aplicará esta Política de Privacidade, que detém as informações para os fins previstos nos documentos relevantes.</value>
+  </data>
+  <data name="strParrafoPrivacidad12" xml:space="preserve">
+    <value>Este Aviso de Privacidade é regido pela lei e outras leis e regulamentos dos Estados Unidos Mexicanos. A aceitação desta Política de Privacidade, a aceitação dos termos deste documento escrito e expressar aos tribunais da Cidade do México, Distrito Federal, para qualquer controvérsia ou reclamação resultante dessa submissão Aviso de Privacidade.</value>
+  </data>
+  <data name="strParrafoPrivacidad2" xml:space="preserve">
+    <value>Industrial Corredor Quetzalcoatl, Huejotzingo, Pue. O controlador dos seus dados pessoais O tratamento de dados dos seus dados pessoais será uma entidade comercial que se refere o primeiro parágrafo do presente aviso.</value>
+  </data>
+  <data name="strParrafoPrivacidad3" xml:space="preserve">
+    <value>Para fins da Lei significa DADOS PESSOAIS qualquer informação relativa TITULAR que assina o presente Aviso, e / ou pessoais sensíveis e / ou dados pessoais que afetam a esfera mais íntima do proprietário, ou cujo uso indevido pode dão origem a discriminações ou implicar um risco grave para ele. Em particular, os aspectos sensíveis consideraram que poderia revelar a origem racial ou étnica, estado de saúde, presente e futuro, a informação genética, crenças religiosas.</value>
+  </data>
+  <data name="strParrafoPrivacidad4" xml:space="preserve">
+    <value>Grupo Skytex recolher dados pessoais necessários para seus departamentos de recursos humanos, compras e crédito e cobrança necessárias para a integração de costume, projetado para atender e formalizar as solicitações inerentes a esses departamentos arquivos individuais.</value>
+  </data>
+  <data name="strParrafoPrivacidad5" xml:space="preserve">
+    <value>Grupo Skytex podem recolher os seus dados pessoais de diferentes maneiras: quando você proporções diretamente, quando visita o nosso website, I tiver falado ou serviços on-line e quando temos a informação através de outras fontes desse grupo Skytex pode obter as seguintes informações pois sem limitação, mas não se limitando a: nome, endereço, data de nascimento, local de nascimento, profissão, atividade ou linha de negócios, número de telefone e de telefone, email, registro de população única Código CURP, Federal Register de contribuintes, currículos, entre outros. Grupo Skytex não usar seus dados pessoais para marketing e promoção de qualquer tipo.</value>
+  </data>
+  <data name="strParrafoPrivacidad6" xml:space="preserve">
+    <value>Skytex Grupo pode transferir seus dados pessoais a terceiros mexicanos ou estrangeiros que prestam serviço necessário para o seu funcionamento e as suas associadas, afiliadas e partes relacionadas. Em tais casos, Grupo Skytex recomendar todas as medidas necessárias para que os terceiros acima referidos que tenham acesso a seus dados pessoais em conformidade com a política de privacidade Skytex Grupo, bem como os princípios da protecção de dados pessoais estabelecidas na lei.</value>
+  </data>
+  <data name="strParrafoPrivacidad7" xml:space="preserve">
+    <value>A temporalidade da manipulação e processamento de dados pessoais, dependerá diretamente da relação jurídica tem mantido com o Grupo Skytex e as obrigações exigidas por lei e as autoridades competentes. Em todos os casos, as informações serão mantidas durante o período necessário para cumprir os propósitos que justificaram o seu tratamento. E cumprir as responsabilidades que surjam como resultado do tratamento em si.</value>
+  </data>
+  <data name="strParrafoPrivacidad8" xml:space="preserve">
+    <value>Grupo Skytex atende aos princípios orientadores da protecção do pessoal da Legalidade Dados consentimento, informação, finalidade, proporcionalidade, lealdade, qualidade e responsabilidade, estabelecido por lei, tendo também as medidas necessárias para a sua implementação. Adota os meios e mecanismos necessários e suficiente para garantir que o tratamento de dados pessoais em conformidade com a legislação aplicável; dando prioridade em todos os momentos para proteger seus interesses e da vida privada através da salvaguarda e proteção devido ao efeito que a perda, mau uso, alteração, acesso não autorizado e / ou roubo é impedida. Portanto, só eles têm acesso à informação a pessoas autorizadas pelo Grupo Skytex que se comprometeram a manter a informação sob a ordem estrita confidencialidade e segurança.</value>
+  </data>
+  <data name="strParrafoPrivacidad9" xml:space="preserve">
+    <value>Skytex Grupo se reserva o direito de fazer em todas as mudanças de tempo ou actualizações deste Aviso de Privacidade, com base apropriados, alterações legislativas, políticas internas ou novos requisitos para o fornecimento ou oferecendo nossos produtos. Estas modificações serão disponibilizadas ao público em nosso www.skytex.com.mx endereço web</value>
+  </data>
+  <data name="strParrafoSkyFelt1" xml:space="preserve">
+    <value>SkyFelt é uma empresa dedicada ao fabrico de feltros de não-tecidos, usando basicamente o mercado de artesanato para projetar e desenvolver produtos ornamental; como todas as empresas Skytex Grupo, o nosso compromisso é oferecer um produto de classe mundial. Para atingir estes objectivos, atualizamos tecnologia e com base no sistema de perfis, temos sido capazes de alcançar uma regularidade excepcional no acabamento e da largura dos nossos produtos.</value>
+  </data>
+  <data name="strParrafoSkyFelt2" xml:space="preserve">
+    <value>Além disso, como são concebidos os nossos processos permite-nos ter a flexibilidade necessária para atender às exigências e necessidades específicas dos nossos clientes e, portanto, propor específicos para diferentes tipos de problemas dentro dos mercados que atendemos soluções.</value>
+  </data>
+  <data name="strParrafoSkyFelt3" xml:space="preserve">
+    <value>Para assegurar a consistência na qualidade do produto, temos implementado sistemas de controle informatizado avançados e monitoramento, que nos permitem ter um alto grau de eficiência no processo de desenvolvimento, bem como a qualidade do produto acabado.</value>
+  </data>
+  <data name="strParrafoSkyFelt4" xml:space="preserve">
+    <value>Como uma empresa, nosso compromisso com a melhoria contínua estende-se a atenção e serviço aos nossos clientes, o que reflecte uma promessa de venda, que se traduz em ser capaz de oferecer o melhor produto de seu tipo no mercado, a um preço justo, entregues na concordou lugar e tempo.</value>
+  </data>
+  <data name="strParrafoSkyMatt1" xml:space="preserve">
+    <value>Skymatt função primária é a produção de fibras artificiais, permitindo reciclado e utilizado como matéria-prima de vários tipos de fibras ( algodão, poliéster, etc.) e de modo a produzir o produto final com características diferentes, de acordo com as necessidades específicas de os vários mercados que atendemos.</value>
+  </data>
+  <data name="strParrafoSkyMatt2" xml:space="preserve">
+    <value>Nosso produto tem como objetivo, atender às demandas da indústria de colchões, que utiliza nossos produtos para dar mais consistência e conforto na concepção e fabrico de colchões; Além disso, a indústria de móveis, utilize o nosso produto como uma parte complementar na fabricação de sofás, cadeiras, etc. e automotivo, em várias aplicações.</value>
+  </data>
+  <data name="strParrafoSkyMatt3" xml:space="preserve">
+    <value>Temos borda alta tecnologia, exclusiva no México, que fez-nos reforçar o nosso compromisso de trabalhar com a equipe técnica e operacional altamente treinados, o que nos permite satisfazer os mais elevados padrões de qualidade exigidos pelos mercados globais.</value>
+  </data>
+  <data name="strParrafoSkyMatt4" xml:space="preserve">
+    <value>Graças ao nosso equipamento de alta tecnologia, altamente pessoal e compromisso permanente treinada para ser uma das melhores empresas do mundo em seu campo, somos capazes de garantir a nossa satisfação dos clientes as suas mais altas expectativas em relação ao nosso serviço, atenção e qualidade dos nossos produtos.</value>
+  </data>
+  <data name="strSubTitulo1" xml:space="preserve">
+    <value>Sobre Skytex México.</value>
+  </data>
+  <data name="strSubTitulo10" xml:space="preserve">
+    <value>Trabalho em Equipe</value>
+  </data>
+  <data name="strSubTitulo11" xml:space="preserve">
+    <value>Segurança e Meio Ambiente</value>
+  </data>
+  <data name="strSubTitulo12" xml:space="preserve">
+    <value>Treinamento</value>
+  </data>
+  <data name="strSubTitulo13" xml:space="preserve">
+    <value>Qualidade e Produtividade</value>
+  </data>
+  <data name="strSubTitulo14" xml:space="preserve">
+    <value>Serviço ao Cliente</value>
+  </data>
+  <data name="strSubTitulo2" xml:space="preserve">
+    <value>Conocenos</value>
+  </data>
+  <data name="strSubTitulo3" xml:space="preserve">
+    <value>Nossa missão</value>
+  </data>
+  <data name="strSubTitulo4" xml:space="preserve">
+    <value>Nossa visão</value>
+  </data>
+  <data name="strSubTitulo5" xml:space="preserve">
+    <value>Os nossos valores</value>
+  </data>
+  <data name="strSubTitulo6" xml:space="preserve">
+    <value>Círculo de Sucesso</value>
+  </data>
+  <data name="strSubTitulo7" xml:space="preserve">
+    <value>Política de Qualidade</value>
+  </data>
+  <data name="strSubTitulo8" xml:space="preserve">
+    <value>Os Valores do Grupo</value>
+  </data>
+  <data name="strSubTitulo9" xml:space="preserve">
+    <value>Os Valores Organizacionais</value>
+  </data>
+  <data name="strTitulo1" xml:space="preserve">
+    <value>Em Skytex</value>
+  </data>
+  <data name="strTitulo10" xml:space="preserve">
+    <value>Ofertas Skytex</value>
+  </data>
+  <data name="strTitulo11" xml:space="preserve">
+    <value>Licitação</value>
+  </data>
+  <data name="strTitulo12" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="strTitulo13" xml:space="preserve">
+    <value>Página em construção</value>
+  </data>
+  <data name="strTitulo14" xml:space="preserve">
+    <value>A página estará em breve disponível</value>
+  </data>
+  <data name="strTitulo15" xml:space="preserve">
+    <value>Política de Privacidade Skytex.</value>
+  </data>
+  <data name="strTitulo16" xml:space="preserve">
+    <value>TERMOS DA LEI FEDERAL DE PROTECÇÃO de posse pessoal sobre dados privados e de sua regulamentação (a seguir a "Lei" )</value>
+  </data>
+  <data name="strTitulo17" xml:space="preserve">
+    <value>Identidade responsável e endereço:</value>
+  </data>
+  <data name="strTitulo18" xml:space="preserve">
+    <value>Skytex casa Grupo:</value>
+  </data>
+  <data name="strTitulo19" xml:space="preserve">
+    <value>Entende-se por dados pessoais:</value>
+  </data>
+  <data name="strTitulo2" xml:space="preserve">
+    <value>Ultimas Notícias</value>
+  </data>
+  <data name="strTitulo20" xml:space="preserve">
+    <value>Finalidade do tratamento dos seus dados:</value>
+  </data>
+  <data name="strTitulo21" xml:space="preserve">
+    <value>Os dados pessoais recolhidos Grupo Skytex:</value>
+  </data>
+  <data name="strTitulo22" xml:space="preserve">
+    <value>Transferência de dados pessoais:</value>
+  </data>
+  <data name="strTitulo23" xml:space="preserve">
+    <value>Os termos do tratamento de dados pessoais:</value>
+  </data>
+  <data name="strTitulo24" xml:space="preserve">
+    <value>Protecção de Dados:</value>
+  </data>
+  <data name="strTitulo25" xml:space="preserve">
+    <value>Alterações à Declaração de Privacidade:</value>
+  </data>
+  <data name="strTitulo26" xml:space="preserve">
+    <value>Direitos ARCO e / ou revogação do consentimento para a utilização e tratamento de dados pessoais:</value>
+  </data>
+  <data name="strTitulo27" xml:space="preserve">
+    <value>Prestadores Grupo Indivíduos Skytex:</value>
+  </data>
+  <data name="strTitulo28" xml:space="preserve">
+    <value>Lei e Jurisdição:</value>
+  </data>
+  <data name="strTitulo29" xml:space="preserve">
+    <value>Presidente da Skytex Mexico SA de C.V.</value>
+  </data>
+  <data name="strTitulo3" xml:space="preserve">
+    <value>Grupo Skytex</value>
+  </data>
+  <data name="strTitulo4" xml:space="preserve">
+    <value>Dentro Skytex</value>
+  </data>
+  <data name="strTitulo5" xml:space="preserve">
+    <value>Encontre-nos no</value>
+  </data>
+  <data name="strTitulo6" xml:space="preserve">
+    <value>Contato</value>
+  </data>
+  <data name="strTitulo7" xml:space="preserve">
+    <value>Mission</value>
+  </data>
+  <data name="strTitulo8" xml:space="preserve">
+    <value>Visão</value>
+  </data>
+  <data name="strTitulo9" xml:space="preserve">
+    <value>Values</value>
+  </data>
+</root>

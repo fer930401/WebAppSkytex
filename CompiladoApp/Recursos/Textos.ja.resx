@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strAviso1" xml:space="preserve">
+    <value>個人情報保護方針</value>
+  </data>
+  <data name="strAviso2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="strBoton1" xml:space="preserve">
+    <value>詳細を表示</value>
+  </data>
+  <data name="strBoton2" xml:space="preserve">
+    <value>公準</value>
+  </data>
+  <data name="strBoton3" xml:space="preserve">
+    <value>閉じるオファー</value>
+  </data>
+  <data name="strBoton4" xml:space="preserve">
+    <value>送信</value>
+  </data>
+  <data name="strBoton5" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="strBoton6" xml:space="preserve">
+    <value>ホームに戻ります</value>
+  </data>
+  <data name="strLabel1" xml:space="preserve">
+    <value>空席の説明</value>
+  </data>
+  <data name="strLabel10" xml:space="preserve">
+    <value>あなたのカリキュラムを添付</value>
+  </data>
+  <data name="strLabel11" xml:space="preserve">
+    <value>ご興味のある方はこの方法であなたのデータを送信し, すぐに私たちはインタビューをスケジュールするためにご連絡させていただきます.</value>
+  </data>
+  <data name="strLabel2" xml:space="preserve">
+    <value>特徴</value>
+  </data>
+  <data name="strLabel3" xml:space="preserve">
+    <value>シフトの種類</value>
+  </data>
+  <data name="strLabel4" xml:space="preserve">
+    <value>経験</value>
+  </data>
+  <data name="strLabel5" xml:space="preserve">
+    <value>欠員</value>
+  </data>
+  <data name="strLabel6" xml:space="preserve">
+    <value>Skytex コンタクト</value>
+  </data>
+  <data name="strLabel7" xml:space="preserve">
+    <value>あなたのメール</value>
+  </data>
+  <data name="strLabel8" xml:space="preserve">
+    <value>フルネーム</value>
+  </data>
+  <data name="strLabel9" xml:space="preserve">
+    <value>注釈</value>
+  </data>
+  <data name="strMenu1" xml:space="preserve">
+    <value>メイン</value>
+  </data>
+  <data name="strMenu2" xml:space="preserve">
+    <value>私たちについて</value>
+  </data>
+  <data name="strMenu3" xml:space="preserve">
+    <value>求人</value>
+  </data>
+  <data name="strMenu4" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="strMenu5" xml:space="preserve">
+    <value>プロバイダー</value>
+  </data>
+  <data name="strNombreSky1" xml:space="preserve">
+    <value>Skytex</value>
+  </data>
+  <data name="strNombreSky2" xml:space="preserve">
+    <value>SkyTrade</value>
+  </data>
+  <data name="strNombreSky3" xml:space="preserve">
+    <value>SkyRug</value>
+  </data>
+  <data name="strNombreSky4" xml:space="preserve">
+    <value>SkyMatt</value>
+  </data>
+  <data name="strNombreSky5" xml:space="preserve">
+    <value>SkyFelt</value>
+  </data>
+  <data name="strNombreSky6" xml:space="preserve">
+    <value>Fiber Home</value>
+  </data>
+  <data name="strNombreSky7" xml:space="preserve">
+    <value>Body Fx</value>
+  </data>
+  <data name="strNombreSky8" xml:space="preserve">
+    <value>SkyDeco</value>
+  </data>
+  <data name="strParrafo1" xml:space="preserve">
+    <value>スカイテックスでは, スパンデックス円形染めやプリント生地と北米自由貿易協定とラテンアメリカのファブリックポリエステル高トルク, 並びに合成生地の地域で最も重要なメーカーの一つであることを誇りに思います.</value>
+  </data>
+  <data name="strParrafo10" xml:space="preserve">
+    <value>私たちは産業大動脈ケツァルコアトル, Huejotzingo, Pue. に位置しています.</value>
+  </data>
+  <data name="strParrafo11" xml:space="preserve">
+    <value />
+  </data>
+  <data name="strParrafo12" xml:space="preserve">
+    <value>Skytex 我々は十分に世界経済に市場の需要を満たすために最先端の技術を満たしている基本的な役割を確信しています. したがって, 我々はこのようなデジタルシステム, 彫刻, 織物やプリント生地だけでなく, 生産の最も先進的な制御システムを設計するために使用されるものとして, 技術, 世界で最も近代的な設備を持っているつもり彼らはあなたが全体の製造プロセスの各ステップを監視することを可能にします.</value>
+  </data>
+  <data name="strParrafo13" xml:space="preserve">
+    <value>今日では, 技術の集中的かつ適切な使用は, 私たちは完全にコンピュータ化されたシステムを介して高度に制御されたプロセスを持っている私達は永久に私たちの生地の優れた品質を保証することができたおかげで可能にしました.</value>
+  </data>
+  <data name="strParrafo14" xml:space="preserve">
+    <value>常にすべての当社の製品に優れた品質は, お客様との間で確立目標とコミットメントで提供しています. これを満たすために, 我々は国際的な品質の最高水準の遵守を確保するために, すべてのプロセスを監視し, 評価する専門のバーコードシステムを持っています.</value>
+  </data>
+  <data name="strParrafo15" xml:space="preserve">
+    <value>私たちの入力および原料, 糸, 染料や化学物質の各等だけでなく, 最終製品は, 最も技術的に高度な機器を使用して厳格な検査の対象となり, それらに完全な満足を保証するために私達を可能に仕様への準拠を制御しますお客様の.</value>
+  </data>
+  <data name="strParrafo16" xml:space="preserve">
+    <value>当社の厳格な生産調整に加えて, 私たちは, 私たちは私たちの製品のタイムリーな配送を確保するために, 顧客の注文を追跡することができます監視システムを持っています.</value>
+  </data>
+  <data name="strParrafo17" xml:space="preserve">
+    <value>施設スカイテックスの地理的位置は, 卓越性のサービスを提供するための施設を補完します. メキシコの繁華街で私たちの場所は, それによって, より効率的な生産工程だけでなく, 当社の製品に必要な入力や原材料の流れを作るために, 顧客やサプライヤーとのコミュニケーションのより短いと使いやすさの距離に変換します終了しました. また, NAFTAの起源のもので, 当社の製品は, 米国, カナダおよびヨーロッパに輸出するために有利な条件をお楽しみいただけます.</value>
+  </data>
+  <data name="strParrafo18" xml:space="preserve">
+    <value>私たちは, 技術の賛成で積極的な役割を果たして会社です. 我々は, 産業の分野における政府の規制を遵守するだけでなく, 生態系の問題に私たち自身の目標やプログラムを満たすために地元の仕様を超えて行くだけではなく.</value>
+  </data>
+  <data name="strParrafo19" xml:space="preserve">
+    <value>当社は, 当社の製造工程で水の生物学的処理のための植物, そのリサイクルと再利用を持っています. 私たちは, 私たちは12000平方メートルの水を, 保存治療し, 再利用することを可能にする雨水を収集するシステムを持っています. 私たちのプロセスでエネルギーを節約するために凝縮した蒸気を回復し, そしてもちろん, 排出量と廃棄物処理上のすべての規制に準拠しています.</value>
+  </data>
+  <data name="strParrafo2" xml:space="preserve">
+    <value>その設備と高度な技術, 私たちの工場はよく世界的にその種の最も近代的なの一つと考えることに起因します.</value>
+  </data>
+  <data name="strParrafo20" xml:space="preserve">
+    <value>使命は, 競争力のある製品と保持および事業開発を可能にする, 卓越性と顧客のニーズを満たす差別化されたサービスの開発と商業化を通じて市場にサービスを提供することです.</value>
+  </data>
+  <data name="strParrafo21" xml:space="preserve">
+    <value>のビジョン Grupo Skytex これは, 継続的にその製品やサービスの質の向上, 最も信頼性の高いサプライヤーとして顧客によって認識されるべきです。彼らと一緒に, 総合的な品質のためのシステムおよびプロセスの開発及び向上を促進するクライアントとしてそのサプライヤによって;常時雇用機会と開発を生成し, 環境の慎重である企業として社会による. そして, 福祉を促進する会社, 安全, 生活の質とそれで働くすべての人々の継続的な開発として, そのスタッフ.</value>
+  </data>
+  <data name="strParrafo22" xml:space="preserve">
+    <value>Ut eget aliquet quam. Nulla faucibus rutrum metus, eu tempus lorem rhoncus eget. Nullam eros nulla, semper in orci sit amet, placerat pellentesque metus. Praesent malesuada ante vitae ligula efficitur imperdiet. Nullam ac elementum urna. In imperdiet sit amet justo ut fringilla. Maecenas fringilla ornare urna vitae aliquet.</value>
+  </data>
+  <data name="strParrafo23" xml:space="preserve">
+    <value>Praesent vel nibh id massa lacinia ullamcorper commodo eu metus. Duis sed leo magna. Vestibulum vitae metus dui. Vivamus a erat vel mi vulputate vehicula. Vivamus vitae mauris dignissim, maximus lectus eget, mollis mauris. Pellentesque commodo feugiat velit nec pulvinar. Praesent porttitor magna magna, nec sollicitudin ante hendrerit et. Praesent in finibus nulla. Donec ullamcorper turpis rhoncus, efficitur ex nec, luctus velit. Fusce placerat justo eget lorem sollicitudin, quis lacinia turpis accumsan. Etiam tristique massa et dui cursus, at porttitor ligula gravida. Integer pretium sem a quam consectetur egestas.</value>
+  </data>
+  <data name="strParrafo3" xml:space="preserve">
+    <value>すべてのプロセスの垂直統合のおかげで, ファブリックのパターンに撚り線から, 私たちはすべて我々の製品に最高の品質を保証することができ, これにより, お客様に最高のサービスを提供しています.</value>
+  </data>
+  <data name="strParrafo4" xml:space="preserve">
+    <value>Grupo Skytex それは, その最先端の技術と決意のおかげですべての当社の製品に最高の品質を確保する企業のグループで構成されています. Grupo Skytex これは, 衣料産業, ファッション, 家の装飾, クリーニング, マットレス業界, 家具などに焦点を当てています. 私たちの工場は Huejotzingo, Puebla における工業団地に位置しています Grupo Skytex これは, すべての国民だけでなく, 国際的な基準を満たしています.</value>
+  </data>
+  <data name="strParrafo5" xml:space="preserve">
+    <value>当社の製品が運命づけられている主な市場は, ファッションや衣類, そうテクスチャ, 終了し, 色やパターンの点で, 生地の品種である, として永久の代替の先駆者を提供しなければならない重要な重要性を獲得しました国際的なファッションブランドの動向に応じました.</value>
+  </data>
+  <data name="strParrafo6" xml:space="preserve">
+    <value>「品質第一」</value>
+  </data>
+  <data name="strParrafo7" xml:space="preserve">
+    <value>平面と円形組織。高トルクの生地のための最初の工場として国にサージ. 製品を交換し, 改善することができる国産製品が輸入しなければならなかった市場を提供するためにポリエステル繊維を使用.</value>
+  </data>
+  <data name="strParrafo8" xml:space="preserve">
+    <value>バテン.  2006年の終わりに, 私たちは高度な技術と高品質管理とストリップの製造を開始しました. サイズや色で高強度と多様性を提供し, ナイロンとポリエステルで作られました.</value>
+  </data>
+  <data name="strParrafo9" xml:space="preserve">
+    <value>環境. 会社として, 我々は業界の分野で政府の規制を遵守するだけでなく, 有機物で私たち自身の目標を達成します. </value>
+  </data>
+  <data name="strParrafoPrivacidad1" xml:space="preserve">
+    <value>Skytex México SA de CV, Skymatt SA de CV, Skyfelt SA de CV, Skyrug SA de CV y Global Financial Solution GFSK SA de CV de CV SOFOM ENR ( conjuntamente denominadas GRUPO SKYTEX ) son los responsables del tratamiento ( uso ) de sus datos personales.</value>
+  </data>
+  <data name="strParrafoPrivacidad10" xml:space="preserve">
+    <value>Usted o su representante legal podrán en cualquier momento solicitar a Grupo Skytex Acceder, Rectificar, Cancelar u Oponerse ( ARCO ), limitar su uso o revocar el uso de sus Datos Personales ( derechos ARCO ) y conocer los procedimientos para ejercer dichos derechos, mediante comunicación al siguiente correo electrónico : atención.avisoprivacidad@skytex.com.mx</value>
+  </data>
+  <data name="strParrafoPrivacidad11" xml:space="preserve">
+    <value>En caso de que usted sea proveedor persona física de Grupo Skytex, apoderado y/o accionista de algún proveedor, y sea persona física, le aplicará este Aviso de Privacidad, sujetándose la información a los fines que se estipulen en los documentos correspondientes.</value>
+  </data>
+  <data name="strParrafoPrivacidad12" xml:space="preserve">
+    <value>このプライバシーポリシーは, 法律およびその他の法律およびメキシコ合衆国の規制によって支配されています. このプライバシーポリシーの受諾は、本契約の条項の書面による承諾を意味し, このプライバシーポリシーの提出から生ずるいかなる論争や請求のためにメキシコシティ, 連邦区の裁判所に表現しています.</value>
+  </data>
+  <data name="strParrafoPrivacidad2" xml:space="preserve">
+    <value>産業大動脈ケツァルコアトル, Huejotzingo, PUE. あなたの個人データのコントローラは, 個人データのデータコントローラは, この通知の最初の段落にいう1営利団体になります.</value>
+  </data>
+  <data name="strParrafoPrivacidad3" xml:space="preserve">
+    <value>同法の目的のために個人情報をこの通知に署名, および/または個人SENSITIVE, および/または所有者の最も親密圏に影響を与える個人データ, またはその誤用することができHOLDERに関するあらゆる情報を意味差別を生じさせるか, それに重大なリスクを伴います. 特に, それらは敏感な人種や民族の起源を明らかにすることができ側面, 健康状態, 現在および将来, 遺伝情報, 宗教的信念を検討しました.</value>
+  </data>
+  <data name="strParrafoPrivacidad4" xml:space="preserve">
+    <value>Grupo Skytex これらの部門の個々のファイルに固有の要求を満たし, 正式するように設計されたカスタムの統合に必要な人材のその部門に必要な個人データ, 購買および信用とコレクションを収集します.</value>
+  </data>
+  <data name="strParrafoPrivacidad5" xml:space="preserve">
+    <value>Grupo Skytex podrá recabar sus datos personales de distintas formas: cuando usted los proporciones directamente, cuando visite nuestro sitio de internet, lo envié por correo electrónico o servicios en línea y cuando obtenemos información a través de otras fuentes que Grupo Skytex podrá recabar los siguientes datos de manera enunciativa mas no limitativa : Nombre, domicilio, fecha de nacimiento, lugar de nacimiento, ocupación, actividad o giro comercial, número telefónico y celular, correo electrónico, Clave única de registro de población CURP, Registro Federal de contribuyentes, Currículums Vitae, entre otros. Grupo Skytex no utilizará sus datos personales para fines de promoción y mercadeo de ninguna índole.</value>
+  </data>
+  <data name="strParrafoPrivacidad6" xml:space="preserve">
+    <value>Grupo Skytex podrá transferir sus datos personales a terceros mexicanos o extranjeros que le provean de servicio necesarios para su operación, así como sus asociadas, afiliadas y partes relacionadas. En dichos supuestos, Grupo Skytex recomendará todas las medidas necesarias para que los terceros mencionados que tengan acceso a sus datos personales cumplan con la política de privacidad de Grupo Skytex así como con los principios de protección de datos personales establecidos en la Ley.</value>
+  </data>
+  <data name="strParrafoPrivacidad7" xml:space="preserve">
+    <value>La temporalidad del manejo y tratamiento de los Datos Personales, dependerá directamente de la relación jurídica que se tenga celebrada con Grupo Skytex, así como de las obligaciones exigidas por la legislación vigente y las autoridades competentes. En todos los casos la información será conservada por el plazo necesario para el cumplimiento de las finalidades que justificaron su tratamiento. Así como para dar cumplimiento a las responsabilidades nacidas como consecuencia del propio tratamiento.</value>
+  </data>
+  <data name="strParrafoPrivacidad8" xml:space="preserve">
+    <value>Grupo Skytex cumple los principios rectores de protección de Datos Personales de Licitud, Consentimiento, Información, Finalidad, Proporcionalidad, Lealtad, Calidad y Responsabilidad, establecidos por la LEY, así mismo adopta las medidas necesarias para su aplicación., adoptará los medios y mecanismos necesarios y suficientes para procurar que el tratamiento de los Datos Personales en apego a la legislación aplicable; privilegiando en todo momento la protección de sus intereses y privacidad, mediante su debido resguardo y protección a efecto de que se impida su pérdida, mal uso, alteración, acceso no autorizado y/o robo. Por tanto, sólo tendrán acceso a la información aquellas personas autorizadas por Grupo Skytex quienes han asumido el compromiso de mantener la información bajo un estricto orden de confidencialidad y seguridad.</value>
+  </data>
+  <data name="strParrafoPrivacidad9" xml:space="preserve">
+    <value>Grupo Skytex それは私たちの製品を提供する, または提供するための適切な, 法改正, 内部ポリシーや新しい要件に基づいて, このプライバシーポリシーに任意の時間の変更や更新時に行う権利を留保します.これらの変更は、当社のウェブアドレスを公開されますwww.skytex.com.mx</value>
+  </data>
+  <data name="strParrafoSkyFelt1" xml:space="preserve">
+    <value>SkyFelt これは, 設計および装飾用の製品を開発するために, 基本的工芸品の市場を使用して, 不織布フェルトの製造に専念会社です. すべての会社スカイテックスグループのように, 私たちのコミットメントは、世界クラスの製品を提供することです. これらの目的を達成するために, 我々は技術を更新し, 我々は製品の仕上げ, 幅例外的な規則性を達成することができましたプロファイリングシステムに基づいています.</value>
+  </data>
+  <data name="strParrafoSkyFelt2" xml:space="preserve">
+    <value>また, 当社のプロセスを設計する方法を私たちが要件と, お客様の特定のニーズを満たすため, 私たちはソリューションを提供する市場内の問題の異なる種類に固有の提案するために必要な柔軟性を持つことができます.</value>
+  </data>
+  <data name="strParrafoSkyFelt3" xml:space="preserve">
+    <value>製品の品質の一貫性を確保するために, 私たちは私たちは, 開発プロセスの効率性が高いだけでなく, 最終製品の品質を有することを可能にする高度なコンピュータ制御システムと監視を実施しています.</value>
+  </data>
+  <data name="strParrafoSkyFelt4" xml:space="preserve">
+    <value>製品の品質の一貫性を確保するために, 私たちは私たちは, 開発プロセスの効率性が高いだけでなく, 最終製品の品質を有することを可能にする高度なコンピュータ制御システムと監視を実施しています.</value>
+  </data>
+  <data name="strParrafoSkyMatt1" xml:space="preserve">
+    <value>Skymatt主な機能は, （等ポリエステル, 綿）繊維のリサイクル原料として使用される各種の許可, 再生繊維の製造であるので, 異なる特性を有する最終製品を製造するために, 特定のニーズに応じて私たちが仕える様々な市場. </value>
+  </data>
+  <data name="strParrafoSkyMatt2" xml:space="preserve">
+    <value>当社の製品は, マットレスの設計および製造においてより一貫性と快適性を与えるために当社の製品を使用する, マットレス業界の要求を満たす, ことを目的と. また, 家具業界は, ソファ, 椅子などの製造に補完的な部分として, 当社の製品を使用しますそして様々な用途において, 自動車.</value>
+  </data>
+  <data name="strParrafoSkyMatt3" xml:space="preserve">
+    <value>私たちは, 私たちは, 私たちは世界市場で要求される最高の品質基準を満たすことができ, 高度な訓練を受けた技術および運用スタッフで動作するように我々のコミットメントを強化してきたメキシコの高級ハイテクエッジを, 持っています.</value>
+  </data>
+  <data name="strParrafoSkyMatt4" xml:space="preserve">
+    <value>私たちのハイテク機器, 高度な訓練を受けたスタッフとその分野で世界的に最高の企業の一つであるために永久的なコミットメントのおかげで, 私たちは顧客満足私たちのサービスに関連して, その高い期待を保証することができ, 注意と当社製品の品質.</value>
+  </data>
+  <data name="strSubTitulo1" xml:space="preserve">
+    <value>約 Skytex</value>
+  </data>
+  <data name="strSubTitulo2" xml:space="preserve">
+    <value>私たちを知っています</value>
+  </data>
+  <data name="strSubTitulo3" xml:space="preserve">
+    <value>私たちのミッション</value>
+  </data>
+  <data name="strSubTitulo4" xml:space="preserve">
+    <value>私たちのビジョン</value>
+  </data>
+  <data name="strSubTitulo5" xml:space="preserve">
+    <value>私たちの価値観</value>
+  </data>
+  <data name="strTitulo1" xml:space="preserve">
+    <value>で Skytex</value>
+  </data>
+  <data name="strTitulo10" xml:space="preserve">
+    <value>利用可能な提供しています</value>
+  </data>
+  <data name="strTitulo11" xml:space="preserve">
+    <value>申し出</value>
+  </data>
+  <data name="strTitulo12" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="strTitulo13" xml:space="preserve">
+    <value>建設中のページ</value>
+  </data>
+  <data name="strTitulo14" xml:space="preserve">
+    <value>ページがすぐに利用できるようになります</value>
+  </data>
+  <data name="strTitulo15" xml:space="preserve">
+    <value> Skytex 個人情報保護方針</value>
+  </data>
+  <data name="strTitulo16" xml:space="preserve">
+    <value>連邦PRIVATEデータの個人財産保護の法律とその調節（ 「 ACT 」を以下）の条項</value>
+  </data>
+  <data name="strTitulo17" xml:space="preserve">
+    <value>責任アイデンティティと住所:</value>
+  </data>
+  <data name="strTitulo18" xml:space="preserve">
+    <value>Domicilio de Grupo Skytex:</value>
+  </data>
+  <data name="strTitulo19" xml:space="preserve">
+    <value>これは、個人データには理解されています:</value>
+  </data>
+  <data name="strTitulo2" xml:space="preserve">
+    <value>最新ニュース</value>
+  </data>
+  <data name="strTitulo20" xml:space="preserve">
+    <value>それらのデータの処理の目的:</value>
+  </data>
+  <data name="strTitulo21" xml:space="preserve">
+    <value>Datos personales que recaba Grupo Skytex:</value>
+  </data>
+  <data name="strTitulo22" xml:space="preserve">
+    <value>個人データの転送:</value>
+  </data>
+  <data name="strTitulo23" xml:space="preserve">
+    <value>個人データの処理の条件:</value>
+  </data>
+  <data name="strTitulo24" xml:space="preserve">
+    <value>データ保護:</value>
+  </data>
+  <data name="strTitulo25" xml:space="preserve">
+    <value>プライバシーポリシーの変更:</value>
+  </data>
+  <data name="strTitulo26" xml:space="preserve">
+    <value>ARCO権および/または個人データのキャンセルの使用および治療のための許可:</value>
+  </data>
+  <data name="strTitulo27" xml:space="preserve">
+    <value>Proveedores de Grupo Skytex Personas Físicas:</value>
+  </data>
+  <data name="strTitulo28" xml:space="preserve">
+    <value>法と管轄:</value>
+  </data>
+  <data name="strTitulo3" xml:space="preserve">
+    <value>グループ Skytex</value>
+  </data>
+  <data name="strTitulo4" xml:space="preserve">
+    <value>以内 Skytex</value>
+  </data>
+  <data name="strTitulo5" xml:space="preserve">
+    <value>私たちを見つけます</value>
+  </data>
+  <data name="strTitulo6" xml:space="preserve">
+    <value>コンタクト</value>
+  </data>
+  <data name="strTitulo7" xml:space="preserve">
+    <value>ミシオン</value>
+  </data>
+  <data name="strTitulo8" xml:space="preserve">
+    <value>ビジョン</value>
+  </data>
+  <data name="strTitulo9" xml:space="preserve">
+    <value>価値観</value>
+  </data>
+</root>

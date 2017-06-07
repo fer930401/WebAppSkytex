@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = Skytex.Recursos.Textos.strMenu3;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <br />
+    <ul class="list-inline">
+        <li><img src="/Media/skytex.png" width="190" height="90" /></li>
+        <li>
+            <h2>@ViewBag.Title</h2>
+        </li>
+    </ul>
+    <br />
+    <div class="row">
+        @using (Html.BeginForm("filtros", "BolsaTrabajo", FormMethod.Post))
+        {
+            <table>
+                Filtros de busqueda
+                <thead>
+                    <tr>
+                        <th width="">
+                            Area:
+                            <select name="area" class="form-control">
+                                <option>Selecciona...</option>
+                                <option value="1">areas de skytex</option>
+                            </select>
+                        </th>
+                        <th width="25"></th>
+                        <th>
+                            Ubicacion:
+                            <select name="ubicacion" class="form-control">
+                                <option>Selecciona...</option>
+                                <option value="2">ubicaciones de skytex</option>
+                            </select>
+                        </th>
+                        <th width="25"></th>
+                        <th>
+                            Palabra clave:
+                            <input type="text" class="form-control" name="pClave"/>
+                        </th>
+                        <th width="25"></th>
+                        <th>
+                            <button class="btn btn-skytex"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Buscar</button>
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+        }
+        <br />
+        @if (IsPost) { 
+           <p>Area seleccionada: @Html.DisplayText("GiftID"), Ubicacion seleccionada: @Html.DisplayText("Name"), Filtro adicional: @Html.DisplayText("Price")</p>
+        }
+
+        <table class="table table-hover">
+            <caption><strong> @Skytex.Recursos.Textos.strTitulo10</strong></caption>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>@Skytex.Recursos.Textos.strTitulo11</th>
+                    <th>@Skytex.Recursos.Textos.strTitulo12</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td><strong>Nombre de la oferta</strong></td>
+                    <td><a role="button" class="btn btn-success" href="@Url.Action("DetalleOferta", "BolsaTrabajo", new { id="1" })" ><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> @Skytex.Recursos.Textos.strBoton1</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,79 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body>
+<br />
+    <style type="text/css">
+        .minusculas {
+            text-transform: lowercase;
+        }
+
+        .mayusculas {
+            text-transform: uppercase;
+        }
+    </style>
+<div class="container">
+    <div class="row">
+        <ul class="list-inline">
+            <li><img src="~/Media/logo2.png" width="230" height="90" /></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="col-md-7">
+        @using (Html.BeginForm("Comentarios", "Home", FormMethod.Post))
+        {
+            <h5>@Skytex.Recursos.Textos.strParrafo32</h5>
+            <br />
+            <ul class="list-inline">
+                <li><strong>@Skytex.Recursos.Textos.strParrafo33</strong></li>
+                <li><input type="text" id="num_nom" name="num_nom" class="form-control" required pattern="[0-9]*" title="Solo numeros - Inserte su numero de nomina" maxlength="10" /></li>
+            </ul>
+            <ul class="list-inline">
+                <li><strong>@Skytex.Recursos.Textos.strParrafo38</strong></li>
+                <li><input type="text" id="rfc_user" name="rfc_user" class="form-control mayusculas" required maxlength="14" /></li>
+            </ul>
+            <button class="btn btn-success">@Skytex.Recursos.Textos.strBoton7</button>
+        }
+        @using (Html.BeginForm("GComentarios", "Home", FormMethod.Post))
+        {
+            if (@ViewData["Clave"] != null) 
+            { 
+                if (@ViewData["Clave"] != "N/U")
+                {
+                    <br />
+                    
+                    @ViewData["User"]
+                    <br />
+                    <input type="hidden" class="form-control" value="@ViewData["User"]" name="user" id="user" readonly>
+                    <input type="hidden" class="form-control" value="@ViewData["Clave"]" name="num_nom2" id="num_nom2" readonly>
+                    <input type="hidden" class="form-control" value="@ViewData["Rfc"]" name="rfc2" id="rfc2" readonly>
+                    <h5>@Skytex.Recursos.Textos.strParrafo35</h5>
+                    <textarea class="form-control" rows="8" required title="Ingrese su comentario" name="comentario" id="comentario"></textarea><br />
+                    <button class="btn btn-skytex" ><span class="glyphicon glyphicon-send" aria-hidden="true"></span> @Skytex.Recursos.Textos.strBoton8</button>
+                }
+                else
+                {
+                    <br />
+                    <div class="alert alert-danger" role="alert">
+                      <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                      @Skytex.Recursos.Textos.strParrafo36
+                    </div>
+                }
+            }
+        }
+        @{
+            if (ViewData["Comentario"] != null)
+            {
+                <br />
+                <div class="alert alert-success" role="alert">
+                    <h4>@Skytex.Recursos.Textos.strParrafo37 - @ViewData["Comentario"]</h4>
+                    <a href="@Url.Action("Index", "Home")"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Regresa al inicio</a>
+                </div>
+            } 
+        }
+        </div>
+    </div>
+</div>
+</body>
+

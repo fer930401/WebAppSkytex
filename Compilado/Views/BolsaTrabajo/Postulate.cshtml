@@ -1,0 +1,115 @@
+﻿
+@{
+    ViewBag.Title = "Postulate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <br />
+    <ul class="list-inline">
+        <li><img src="/Media/skytex.png" width="190" height="90" /></li>
+        <li>
+            <h2>@ViewBag.Title</h2>
+        </li>
+    </ul>
+    <br />
+    <div class="row">
+        <div class="col-md-8">
+            @using (Html.BeginForm("Postulate", "BolsaTrabajo", FormMethod.Post))
+            {
+                <table width="100%">
+                    <thead>
+                        <tr>
+                            <th>
+                                Inserta tu RFC: <input type="text" name="rfc" class="form-control" title="Inserta tu RFC" required placeholder="RFC" />
+                            </th>
+                            <th width="25"></th>
+                            <th>
+                                <button class="btn btn-skytex"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Buscar</button>
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+            }
+        </div>
+    </div>
+    <div class="row">
+        @if (IsPost)
+        {
+            <br />
+            using (Html.BeginForm("DetalleOferta", "BolsaTrabajo", FormMethod.Post, new { enctype = "multipart/form-data", onsubmit = "onEnviar()" }))
+            {
+                <div class="col-md-10">
+                    <input type="hidden" class="form-control" id="variable" name="variable">
+                    <input type="hidden" name="ofertaTrabajo" class="form-control" value="Oferta 1">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">@Skytex.Recursos.Textos.strLabel6:</label>
+                        <input type="email" name="emailContacto" class="form-control" id="exampleInputEmail1" placeholder="Email" readonly value="fernando.garcia@skytex.com.mx">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName">RFC:</label>
+                        <input type="text" name="rfcCandidato" class="form-control text-uppercase" id="exampleInputName" pattern="[a-zA-Záéíóúñ ]*" value="@Request["rfc"]" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName">@Skytex.Recursos.Textos.strLabel8:</label>
+                        <input type="text" name="nomCompleto" class="form-control" id="exampleInputName" placeholder="Nombre Completo" pattern="[a-zA-Záéíóúñ ]*" title="Ingresa Tu Nombre (Solo Se Permiten Letras)" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail2">@Skytex.Recursos.Textos.strLabel7:</label>
+                        <input type="email" name="emailCandidato" class="form-control" id="exampleInputEmail2" placeholder="ejemplo@hotmail.com" title="Ingresa Tu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputTelefono">Telefono:</label>
+                        <input type="tel" name="telCandidato" class="form-control" id="exampleInputTelefono" placeholder="Telefono" pattern="[0-9- ]*" title="Ingresa Tu Telefono (Solo Se Permiten Numeros)" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEstudios">Ultimo Grado de Estudios:</label>
+                        <select name="estudios" class="form-control">
+                            <option value="Primaria">Primaria</option>
+                            <option value="Secundaria">Secundaria</option>
+                            <option value="Preparatoria">Preparatoria</option>
+                            <option value="Universidad">Universidad(Lic./Ing.)</option>
+                            <option value="Maestria">Maestria</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <table id="dataTable" width="100%" class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Empresa:</th>
+                                    <th width="25"></th>
+                                    <th>Puesto</th>
+                                    <th width="25"></th>
+                                    <th>Periodo</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableToModify">
+                                <tr id="rowToClone">
+                                    <td><input type="text" name="empresa[]" class="form-control" /></td>
+                                    <td width="25"></td>
+                                    <td><input type="text" name="puesto[]" class="form-control" /></td>
+                                    <td width="25"></td>
+                                    <td>Fecha Inicio:<input type="date" name="inicio[]" class="form-control" />Fecha Fin:<input type="date" name="fin[]" class="form-control" /></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <input type="button" class="btn btn-skytex" name="clonar" value="Captura Otro Empleo" onclick="cloneRow()" />
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputComentarios1">@Skytex.Recursos.Textos.strLabel9:</label>
+                        <textarea name="comentarios" class="form-control" rows="3" cols="30" placeholder="Comentarios"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputFile">@Skytex.Recursos.Textos.strLabel10:</label>
+
+                        <input type="file" name="archivo" class="form-control" id="exampleInputFile" title="Ingresa Tu CV" accept=".pdf" required>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>  @Skytex.Recursos.Textos.strBoton4</button>
+                        <a role="button" class="btn btn-danger" href="@Url.Action("bolsaTrabajo", "BolsaTrabajo")"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> @Skytex.Recursos.Textos.strBoton5</a>
+                    </div>
+                </div>
+            }
+
+        }
+    </div>
+</div>
