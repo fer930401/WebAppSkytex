@@ -331,17 +331,20 @@
                         <br />
                         <br />
                         <ul class="fh ">
-                            <li class="ag"><h6 class="eu">CONTÁCTANOS</h6></li>
+                            <li class="ag"><h6 class="eu">CONTACTO VACANTES</h6></li>
                             <li class="letraFooter">
                                 <address>
-                                    <strong>Skytex México S.A de C.V.</strong><br><br />
-                                    <strong>Lic. Myriam Pérez Escobedo</strong><br>
+                                    <strong>Skytex México S.A de C.V.</strong><br /><br />
                                     <p class="alp">
-                                        <abbr title="Email">Email:</abbr><a href="mailto:myriam.perez@skytex.com.mx?subject=Contacto Skytex">myriam.perez@skytex.com.mx</a><br />
+                                        <abbr title="Email">Email:</abbr>
+                                        <a href="mailto:gerente.reclutamiento@skytex.com.mx?subject=Contacto Skytex">gerente.reclutamiento@skytex.com.mx</a>
+                                        <br />
                                     </p>
                                     <strong>Lic. Maria Goretti Popoca Coyotl</strong><br>
                                     <p class="alp">
-                                        <abbr title="Email">Email:</abbr><a href="mailto:maria.goretti@skytex.com.mx?subject=Contacto Skytex">maria.goretti@skytex.com.mx</a><br />
+                                        <abbr title="Email">Email:</abbr>
+                                        <a href="mailto:supervisor.reclutamiento@skytex.com.mx?subject=Contacto Skytex">supervisor.reclutamiento@skytex.com.mx</a>
+                                        <br />
                                     </p>
                                 </address>
                                 <address>

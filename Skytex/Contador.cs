@@ -8,7 +8,7 @@ namespace Skytex
 {
     public class Contador
     {
-        const string counterfile = @"C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkytex\Skytex\Contador\Counter.txt";
+        const string counterfile = @"C:\Users\fernando.garcia\Documents\Repositorios\WebAppSkytex\Skytex\Contador\Counter.txt";
         //const string counterfile = @"C:\Site\skytex2016\Contador\Counter.txt";
         //const string counterfile = @"C:\Desarrollo\Desarrollo_web\AppsPrueba\Skytex\Contador\Counter.txt";
         const string sessionvar = "checkCounter";

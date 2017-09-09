@@ -1278,7 +1278,7 @@ namespace Skytex.Recursos {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Contáctanos.
+        ///   Looks up a localized string similar to Contacto Vacantes.
         /// </summary>
         public static string strTitulo6 {
             get {
