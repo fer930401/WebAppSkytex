@@ -25,3 +25,12 @@ C:\Users\fernando.garcia\Documents\Repositorios\WebAppSkytex\Skytex.LogicaNegoci
 C:\Users\fernando.garcia\Documents\Repositorios\WebAppSkytex\Skytex.LogicaNegocio\obj\Debug\WebAppSkytex.LogicaNegocio.csprojResolveAssemblyReference.cache
 C:\Users\fernando.garcia\Documents\Repositorios\WebAppSkytex\Skytex.LogicaNegocio\obj\Debug\Skytex.LogicaNegocio.dll
 C:\Users\fernando.garcia\Documents\Repositorios\WebAppSkytex\Skytex.LogicaNegocio\obj\Debug\Skytex.LogicaNegocio.pdb
+C:\Users\Fer\Documents\Repositorios\WebAppSkytex\Skytex.LogicaNegocio\bin\Debug\Skytex.LogicaNegocio.dll
+C:\Users\Fer\Documents\Repositorios\WebAppSkytex\Skytex.LogicaNegocio\bin\Debug\Skytex.LogicaNegocio.pdb
+C:\Users\Fer\Documents\Repositorios\WebAppSkytex\Skytex.LogicaNegocio\bin\Debug\AccesoDatos.dll
+C:\Users\Fer\Documents\Repositorios\WebAppSkytex\Skytex.LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\Fer\Documents\Repositorios\WebAppSkytex\Skytex.LogicaNegocio\bin\Debug\AccesoDatos.pdb
+C:\Users\Fer\Documents\Repositorios\WebAppSkytex\Skytex.LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\Fer\Documents\Repositorios\WebAppSkytex\Skytex.LogicaNegocio\obj\Debug\WebAppSkytex.LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Fer\Documents\Repositorios\WebAppSkytex\Skytex.LogicaNegocio\obj\Debug\Skytex.LogicaNegocio.dll
+C:\Users\Fer\Documents\Repositorios\WebAppSkytex\Skytex.LogicaNegocio\obj\Debug\Skytex.LogicaNegocio.pdb
